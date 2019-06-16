@@ -69,15 +69,11 @@ class War {
     }
 
     addViking(Viking) {
-
         this.vikingArmy.push(Viking);
-        console.log(`vikingo añadido, ahora hay ${this.vikingArmy.length}`);
     }
 
     addSaxon(Saxon) {
-
         this.saxonArmy.push(Saxon);
-        console.log(`sajón añadido, ahora hay ${this.saxonArmy.length}`);
     }
 
     vikingAttack() {
